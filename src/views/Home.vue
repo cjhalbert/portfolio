@@ -1,5 +1,5 @@
 <template>
-    <main>
+    <main class="global-padding">
       <Hero />
       <About />
       <Clients />

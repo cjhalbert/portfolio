@@ -1,26 +1,31 @@
 <template>
   <div id="app">
-    <nav id="nav">
-      <Logo />
-      <ul>
-        <li class="header-text"><a href="#about">about</a></li>
-        <li class="header-text">/</li>
-        <li class="header-text"><a href="#work">work</a></li>
-      </ul>
-      <a href="#contact" class="header-text">contact</a>
-      <!-- <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link> -->
-    </nav>
+    <fixed-header>
+      <nav class="navbar global-padding" id="nav">
+        <Logo />
+        <ul>
+          <li class="header-text"><a href="#about">about</a></li>
+          <li class="header-text">/</li>
+          <li class="header-text"><a href="#work">work</a></li>
+        </ul>
+        <a href="#contact" class="header-text">contact</a>
+        <!-- <router-link to="/">Home</router-link> |
+        <router-link to="/about">About</router-link> -->
+      </nav>    
+    </fixed-header>
     <router-view />
   </div>
 </template>
 
 <script>
-import Logo from "@/assets/clogo.vue";
+import Logo from "@/assets/Clogo.vue";
+import FixedHeader from 'vue-fixed-header'
+
 
 export default {
   components: {
     Logo,
+    FixedHeader,
   },
 }
 </script>
@@ -31,15 +36,13 @@ body {
   padding: 0;
 }
 
-#app {
-  padding: 0 10vw;
-}
-
-#nav {
+.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 2rem 0;
+  margin: 2rem 0 4rem 0;
+  position: fixed;
+  width: 80vw;
 
   ul {
     display: flex;
@@ -50,7 +53,7 @@ body {
 
 .header-text {
   font-family: "Orpheus Pro", serif;
-  font-size: 14px;
+  font-size: 16px;
   color: black;
   list-style: none;
 
@@ -64,7 +67,18 @@ body {
   }
 }
 
+.global-padding {
+  padding: 0 10vw;
+}
+
 .router-link-active {
   text-decoration: underline;
+}
+
+.navbar.vue-fixed-header--isFixed {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 80vw
 }
 </style>

@@ -1,10 +1,16 @@
 <template>
   <div id="app">
-    <div id="nav">
+    <nav id="nav">
       <Logo />
+      <ul>
+        <li class="header-text"><a href="#about">about</a></li>
+        <li class="header-text">/</li>
+        <li class="header-text"><a href="#work">work</a></li>
+      </ul>
+      <a href="#contact" class="header-text">contact</a>
       <!-- <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> -->
-    </div>
+    </nav>
     <router-view />
   </div>
 </template>
@@ -26,24 +32,39 @@ body {
 }
 
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
   padding: 0 10vw;
 }
 
 #nav {
-  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 0;
+
+  ul {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+  }
+}
+
+.header-text {
+  font-family: "Orpheus Pro", serif;
+  font-size: 14px;
+  color: black;
+  list-style: none;
 
   a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
+    color: black;
+    text-decoration: none;
   }
+
+  &:nth-child(2) {
+    margin: 0 0.5rem;
+  }
+}
+
+.router-link-active {
+  text-decoration: underline;
 }
 </style>

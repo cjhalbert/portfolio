@@ -1,5 +1,5 @@
 <template>
-    <svg width="38px" height="37px" viewBox="0 0 38 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <svg width="23px" height="23px" viewBox="0 0 38 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
         <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
             <g id="Desktop-Copy-8" transform="translate(-83.000000, -49.000000)" stroke="#000000">
                 <g id="Group" transform="translate(83.524096, 49.000000)">

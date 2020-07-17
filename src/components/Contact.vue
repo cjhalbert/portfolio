@@ -21,13 +21,6 @@ h1 {
   color: #7160F4;
   text-align: center;
 }
-@media screen and (max-width: 600px) {
-  h1 {
-    margin-bottom: 2rem;
-    font-size: 25px;
-  }
-}
-
 p {
   font-family: "Orpheus Pro", serif;
   font-style: italic;
@@ -35,8 +28,18 @@ p {
   span {
     font-family: "Neue Haas Grotesk Text Pro", sans-serif;
     font-weight: bold;
-    margin-left: 3vw;
     font-style: normal;
+    margin-left: 1vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    margin-bottom: 2rem;
+    font-size: 25px;
+  }
+  p span {
+    margin-left: 2vw;
   }
 }
 </style>

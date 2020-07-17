@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <fixed-header>
-      <nav class="navbar global-padding" id="nav">
+      <nav class="navbar" id="nav">
         <Logo />
         <ul>
           <li class="header-text"><a href="#about">about</a></li>
@@ -43,6 +43,7 @@ body {
   margin: 2rem 0 4rem 0;
   position: fixed;
   width: 80vw;
+  padding: 0 10vw;
 
   ul {
     display: flex;
@@ -67,8 +68,9 @@ body {
   }
 }
 
-.global-padding {
+.global-section {
   padding: 0 10vw;
+  height: 100vh;
 }
 
 .router-link-active {

@@ -55,11 +55,11 @@ p {
     width: 50vw;
   }
   h1 {
-    font-size: 30px;
+    font-size: 25px;
   }
   p {
-    line-height: 30px;
-    font-size: 16px;
+    line-height: 28px;
+    font-size: 14px;
   }
 }
 </style>

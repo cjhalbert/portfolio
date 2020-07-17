@@ -24,6 +24,7 @@ h1 {
 @media screen and (max-width: 600px) {
   h1 {
     margin-bottom: 2rem;
+    font-size: 25px;
   }
 }
 
@@ -34,7 +35,7 @@ p {
   span {
     font-family: "Neue Haas Grotesk Text Pro", sans-serif;
     font-weight: bold;
-    margin-left: 1vw;
+    margin-left: 3vw;
     font-style: normal;
   }
 }

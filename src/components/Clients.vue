@@ -37,5 +37,28 @@ p {
 
 .about-text {
   width: 40vw;
-}  
+}
+
+@media screen and (max-width: 600px) {
+  section {
+    padding: 5vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .about-text {
+    width: 100%;
+  }
+  img {
+    width: 80vw;
+    margin-top: 5vh;
+  }
+  h1 {
+    font-size: 25px;
+  }
+  p {
+    line-height: 28px;
+    font-size: 14px;
+  }
+}
 </style>

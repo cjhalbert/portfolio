@@ -51,4 +51,9 @@ h1 {
     vertical-align: top;
   }
 }
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 25px;
+  }
+}
 </style>

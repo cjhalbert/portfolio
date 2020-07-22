@@ -2,7 +2,7 @@
 	<section name="about" class="global-section">
     <div class="about-text">
       <h1>Clients</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et leo tristique, malesuada velit ut, vulputate quam. Quisque commodo velit eu elit sodales. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et leo tristique, malesuada velit ut, vulputate quam. Quisque commodo velit eu elit sodales.</p>
+      <p>Over the course of my professional career I've been lucky enough to have had the opportunity to work with a bunch of really awesome clients, people, and companies! This has given me experience in a variety of different industries, product sizes, and team compositions. Here are just a few of the people I've worked with!</p>
     </div>
     <div>
       <img src="../assets/clients.png" alt="">
@@ -31,6 +31,7 @@ h1 {
 
 p {
   font-size: 18px;
+  line-height: 35px;
   color: black;
   margin: 0;
 }

@@ -1,11 +1,11 @@
 <template>
-	<section name="about" class="global-section">
+	<section id="about" class="global-section">
 		<div>
       <img src="../assets/corey.png" alt="">
     </div>
     <div class="about-text">
       <h1>Hi, nice to meet you!</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et leo tristique, malesuada velit ut, vulputate quam. Quisque commodo velit eu elit sodales. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent et leo tristique, malesuada velit ut, vulputate quam. Quisque commodo velit eu elit sodales.</p>
+      <p>I’m Corey – An Austin based product designer, front-end web developer, UX researcher, music nerd, movie buff, philosopher, and high-fashion connoisseur. I like to wear lots of hats in my professional life, and am constantly thinking of how I can apply my interdisciplinary experience and mindset in unique and exciting ways. I am a passionate critical thinker who loves to dig into complex problems and dissect them to find the most empathetic, human-first solutions, and am excited to work on my next big project!</p>
     </div>
 	</section>
 </template>
@@ -36,6 +36,7 @@ h1 {
 
 p {
   font-size: 18px;
+  line-height: 35px;
   color: #483C9E;
   margin: 0;
 }

@@ -14,3 +14,9 @@
         </g>
     </svg>    
 </template>
+
+<style lang="scss" scoped>
+svg {
+  cursor: pointer;
+}
+</style>

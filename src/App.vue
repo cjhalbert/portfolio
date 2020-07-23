@@ -1,35 +1,16 @@
 <template>
   <div id="app">
-    <fixed-header>
-      <nav class="navbar" id="nav">
-        <Logo v-scroll-to="'#app'" />
-        <ul>
-          <li class="header-text"><a v-scroll-to="'#about'">about</a></li>
-          <li class="header-text">/</li>
-          <li class="header-text"><a v-scroll-to="'#work'">work</a></li>
-        </ul>
-        <a v-scroll-to="'#contact'" class="header-text">contact</a>
-        <!-- <router-link to="/">Home</router-link> |
-        <router-link to="/about">About</router-link> -->
-      </nav>    
-    </fixed-header>
+    <Nav />
     <router-view />
   </div>
 </template>
 
 <script>
-import Vue from 'vue';
-import Logo from "@/assets/Clogo.vue";
-import FixedHeader from 'vue-fixed-header'
-import VueScrollTo from 'vue-scrollto';
-Vue.use(VueScrollTo);
-
-
+import Nav from './components/Nav';
 
 export default {
   components: {
-    Logo,
-    FixedHeader,
+    Nav
   },
 }
 </script>

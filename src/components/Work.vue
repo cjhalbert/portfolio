@@ -3,32 +3,32 @@
 		<h1>Here's some of my work!</h1>
     <div class="project-grid">
       <div>
-        <img src="../assets/circles.png" alt="">
+        <router-link to="/Circles"><img src="../assets/circles.png" alt=""></router-link>
         <h2>Circles</h2>
         <p>Illustration, Visual Design</p>
       </div>
       <div>
-        <img src="../assets/maxwell.png" alt="">
+        <router-link to="/Maxwell"><img src="../assets/maxwell.png" alt=""></router-link>
         <h2>Maxwell Denari</h2>
         <p>Branding, Visual Design</p>
       </div>
       <div>
-        <img src="../assets/facebook.png" alt="">
+        <router-link to="/Facebook"><img src="../assets/facebook.png" alt=""></router-link>
         <h2>Facebook Marketing Partners</h2>
         <p>UX Design, Product Design, User Research</p>
       </div>
       <div>
-        <img src="../assets/whocares.png" alt="">
+        <router-link to="/Whocares"><img src="../assets/whocares.png" alt=""></router-link>
         <h2>Who Cares Visual Style</h2>
         <p>Illustration, Visual Design</p>
       </div>
       <div>
-        <img src="../assets/benrec.png" alt="">
+        <router-link to="/Beneficence"><img src="../assets/benrec.png" alt=""></router-link>
         <h2>Beneficence Records</h2>
         <p>Web Design, Branding, Visual Design</p>
       </div>
       <div>
-        <img src="../assets/equinix.png" alt="">
+        <router-link to="/Equinix"><img src="../assets/equinix.png" alt=""></router-link>
         <h2>Equinix Edge Services</h2>
         <p>UX Design, Product Design, User Research</p>
       </div>

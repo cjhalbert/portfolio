@@ -35,6 +35,30 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2rem 0 4rem 0;
+  position: fixed;
+  width: 80vw;
+  padding: 0 10vw;
+  z-index: 10;
+
+  ul {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+  }
+}
+
+.navbar.vue-fixed-header--isFixed {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 80vw
+}
+
 .project-nav {
   justify-content: center;
 }

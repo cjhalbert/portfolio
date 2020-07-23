@@ -20,21 +20,9 @@ body {
   margin: 0;
   padding: 0;
 }
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 2rem 0 4rem 0;
-  position: fixed;
-  width: 80vw;
-  padding: 0 10vw;
-
-  ul {
-    display: flex;
-    list-style-type: none;
-    flex-direction: row;
-  }
+::selection {
+  color: white;
+  background: #483C9E;
 }
 
 .header-text {
@@ -63,10 +51,31 @@ body {
   text-decoration: underline;
 }
 
-.navbar.vue-fixed-header--isFixed {
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 80vw
+.project-grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  gap: 5vw;
+
+  div {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+  }
+}
+@media screen and (max-width: 900px) {
+  .project-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 600px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
 }
 </style>

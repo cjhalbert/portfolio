@@ -33,6 +33,7 @@ h1 {
   font-size: 40px;
   margin: 0;
   color: #7160F4;
+  text-align: center;
 }
 
 h2 {

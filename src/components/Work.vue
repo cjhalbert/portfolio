@@ -25,7 +25,7 @@
       <div class="project">
         <router-link to="/Helio"><img src="../assets/helio-thumbnail.png" alt=""></router-link>
         <h2>Helio Workflow</h2>
-        <p>Web Design, Front-End Development, Visual Design</p>
+        <p>Web Design, Web Development, Visual Design</p>
       </div>
       <div class="project">
         <router-link to="/Equinix"><img src="../assets/equinix.png" alt=""></router-link>

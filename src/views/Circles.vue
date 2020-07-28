@@ -2,7 +2,7 @@
   <section class="global-section">
     <h1>Circles</h1>
     <h2>Illustration, Visual Design</h2>
-    <p>This project was a visual deisgn excercise for me to explore some digital illustration a little outside my comfort zone. For two weeks I gave myself the challenge of using Illustrator to create some unique circular form using only lines. This was a ton of fun to do and definitely pushed me out of comfort zone!</p>
+    <p>This project was a visual design excercise for me to explore some digital illustrations a little outside my comfort zone. For two weeks I gave myself the challenge of using Adobe Illustrator to create some unique circular forms using only lines. This was a ton of fun to do and definitely pushed me out of comfort zone!</p>
     <div class="project-grid project-page">
       <div><img src="../assets/circles/circle1.png" alt=""></div>
       <div><img src="../assets/circles/circle2.png" alt=""></div>

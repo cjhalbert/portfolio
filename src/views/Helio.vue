@@ -29,7 +29,7 @@
     <hr>
     <div class="work-section">
       <h1>Wireframes</h1>
-      <p>Moving into wireframes was all about solidying our ideas and concepts, and moving the team towards a final vision of the feature. This was the longest phase of the project, and as a team we went through 10 weeks of iterations, with two weekly calls with team members, stakeholders, researchers, and other interested parties. This phase included a lot of constructive debate, several "Back to the drawing board" moments, and just as many "aha" moments. Eventually, at the end of all of this, we moved into cleaning things up and starting to develop.</p>
+      <p>Moving into wireframes was all about solidifying our ideas and concepts, and moving the team towards a final vision of the feature. This was the longest phase of the project, and as a team we went through 10 weeks of iterations, with two weekly calls with team members, stakeholders, researchers, and other interested parties. This phase included a lot of constructive debate, several "Back to the drawing board" moments, and just as many "aha" moments. Eventually, at the end of all of this, we moved into cleaning things up and starting to develop the project.</p>
       <div class="work-grid oneCol">
         <img src="../assets/helio/wireframe1.png" alt="">
         <img src="../assets/helio/wireframe2.png" alt="">
@@ -46,7 +46,7 @@
     <hr>
     <div class="work-section">
       <h1>Final Visuals & Code</h1>
-      <p>With our concepts solidified, and our designs polished it was finally time to develop. This final stage of the project was all about preparing for development. We decided to break up the project into several smaller feature releases instead of releasing the whole thing at once. So, we figured out how to break the project down into smaller independant pieces, outlined the development time, and setup timelines. After this we got to coding! At the time, we were working on converting most of Helio from Angular.js to Vue.js, and so we had to keep that in mind as we implemented some of these features. We decided to use this as an opportunity to start the framework switch with Workflow. In addition to ideating, designing, and developing Workflow, I was also responsible for studying Vue, and formulating a plan for integrating it with the rest of the Angular application. As of right now, Workflow is still in the process of being implemented. </p>
+      <p>With our concepts solidified and our designs polished it was finally time to develop. This final stage of the project was all about preparing for development. We decided to break up the project into several smaller feature releases instead of releasing the whole thing at once. So, we figured out how to break the project down into smaller independant pieces, outlined the development time, and setup timelines. After this we got to coding! At the time, we were working on converting most of Helio from Angular.js to Vue.js, and so we had to keep that in mind as we implemented some of these features. We decided to use this as an opportunity to start the framework switch with Workflow. In addition to ideating, designing, and developing Workflow, I was also responsible for studying Vue, and formulating a plan for integrating it with the rest of the Angular application. As of right now, Workflow is still in the process of being implemented. </p>
       <div class="work-grid oneCol">
         <img src="../assets/helio/visual1.png" alt="">
         <img src="../assets/helio/visual2.png" alt="">

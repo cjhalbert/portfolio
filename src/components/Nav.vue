@@ -18,7 +18,7 @@
 <script>
 import Vue from 'vue';
 import FixedHeader from 'vue-fixed-header'
-import Logo from "@/assets/Clogo.vue";
+import Logo from "@/assets/clogo.vue";
 import VueScrollTo from 'vue-scrollto';
 Vue.use(VueScrollTo);
 

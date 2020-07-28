@@ -10,7 +10,7 @@
       <a v-scroll-to="'#contact'" class="header-text">contact</a>
     </nav>
     <nav class="navbar project-nav" id="nav" v-else>
-       <router-link to="/"><Logo /></router-link>
+       <router-link to="/"><Logo class="work-logo" /></router-link>
     </nav>
   </fixed-header>
 </template>
@@ -61,5 +61,13 @@ export default {
 
 .project-nav {
   justify-content: center;
+}
+
+.work-logo {
+  opacity: 0.1;
+  transition: opacity 0.3s;
+}
+.work-logo:hover {
+  opacity: 1;
 }
 </style>

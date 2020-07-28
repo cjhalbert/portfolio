@@ -52,7 +52,10 @@ h2 {
 }
 
 p {
-  font-size: 18px;
+  font-family: "Neue Haas Grotesk Text Pro", sans-serif;
+  color: #6A6B6B;
+  font-weight: 400;
+  font-size: 16px;
   line-height: 35px;
   width: 50vw;
   margin-top: 5vh;

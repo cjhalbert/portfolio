@@ -5,7 +5,7 @@ import Circles from "../views/Circles.vue";
 import Maxwell from "../views/Maxwell.vue";
 import Facebook from "../views/Facebook.vue";
 import Whocares from "../views/Whocares.vue";
-import Beneficence from "../views/Beneficence.vue";
+import Helio from "../views/Helio.vue";
 import Equinix from "../views/Equinix.vue";
 
 Vue.use(VueRouter);
@@ -37,9 +37,9 @@ const routes = [
     component: Whocares
   },
   {
-    path: "/Beneficence",
-    name: "Beneficence",
-    component: Beneficence
+    path: "/Helio",
+    name: "Helio",
+    component: Helio
   },
   {
     path: "/Equinix",
@@ -49,7 +49,14 @@ const routes = [
 ];
 
 const router = new VueRouter({
-  routes
+  routes,
+  scrollBehavior (to, from, savedPosition) {
+    if (savedPosition) {
+      return savedPosition
+    } else {
+      return { x: 0, y: 0 }
+    }
+  }
 });
 
 export default router;

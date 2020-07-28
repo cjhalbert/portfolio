@@ -47,6 +47,10 @@ body {
   height: 100vh;
 }
 
+.oneCol {
+  grid-template-columns: 1fr;
+}
+
 .router-link-active {
   text-decoration: underline;
 }

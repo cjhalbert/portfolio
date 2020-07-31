@@ -1,6 +1,6 @@
 <template>
   <section class="global-section"> 
-    <img src="../assets/me.svg" alt="">
+    <img src="../assets/me.jpg" alt="">
   </section>
 </template>
 

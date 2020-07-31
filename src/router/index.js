@@ -39,7 +39,17 @@ const routes = [
   {
     path: "/Helio",
     name: "Helio",
-    component: Helio
+    component: Helio,
+    async beforeEnter(to, from, next) {
+      try {
+        let password = prompt("Please enter password to view project", "password");
+        if (password == "zmijewski") next();
+      } catch (e) {
+        next({
+          name: 'Home'
+        })
+      }
+    }
   },
   {
     path: "/Equinix",

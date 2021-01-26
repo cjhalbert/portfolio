@@ -27,9 +27,6 @@ export default {
   components: {
     FixedHeader,
     Logo
-  },
-  created: function() {
-    console.log(this.$route.path);
   }
 }
 </script>

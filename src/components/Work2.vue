@@ -1,21 +1,21 @@
 <template>
 	<section id="work">
-		<h1>Product Design/Development</h1>
+		<h1>Visual Design</h1>
     <div class="project-grid">
       <div class="project">
-        <router-link to="/Facebook"><img src="../assets/facebook.png" alt=""></router-link>
-        <h2>Facebook Marketing Partners</h2>
-        <p>UX Design, Product Design, User Research</p>
+        <router-link to="/Circles"><img src="../assets/circles.png" alt=""></router-link>
+        <h2>Circles</h2>
+        <p>Illustration, Visual Design</p>
       </div>
       <div class="project">
-        <router-link to="/Helio"><img src="../assets/helio-thumbnail.png" alt=""></router-link>
-        <h2>Helio Workflow</h2>
-        <p>Web Design, Web Development, Visual Design</p>
+        <router-link to="/Maxwell"><img src="../assets/maxwell.png" alt=""></router-link>
+        <h2>Maxwell Denari</h2>
+        <p>Branding, Visual Design</p>
       </div>
       <div class="project">
-        <router-link to="/Equinix"><img src="../assets/equinix.png" alt=""></router-link>
-        <h2>Equinix Edge Services</h2>
-        <p>UX Design, Product Design, User Research</p>
+        <router-link to="/Whocares"><img src="../assets/whocares.png" alt=""></router-link>
+        <h2>Who Cares Visual Style</h2>
+        <p>Illustration, Visual Design</p>
       </div>
     </div>
 	</section>
@@ -27,11 +27,11 @@
 }
 
 section {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
-  background-color: #F8F7FE;
+  background-color: white;
   padding: 10vw;
 }
 
@@ -58,6 +58,7 @@ p {
 
 img {
   width: 100%;
+  border: 1px solid black;
 }
 
 img:hover {

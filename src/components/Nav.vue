@@ -1,5 +1,5 @@
 <template>
-  <fixed-header>
+  <fixed-header :threshold="74">
     <nav class="navbar" id="nav" v-if="$route.path == '/'"> 
       <Logo v-scroll-to="'#app'" />
       <ul>
@@ -53,7 +53,14 @@ export default {
   position: fixed;
   left: 0;
   top: 0;
-  width: 80vw
+  width: 80vw;
+  opacity: 0.1;
+  transition: opacity 0.3s;
+
+  &:hover {
+    opacity: 1;
+    transition: opacity 0.3s;
+  }
 }
 
 .project-nav {

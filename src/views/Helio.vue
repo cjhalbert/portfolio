@@ -102,11 +102,14 @@ hr {
 .work-section {
   margin-top: 10vh;
   margin-bottom: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   p {
     margin: 0;
-    text-align: left;
-    width: 100%;
+    text-align: center;
+    width: 70%;
   }
 }
 

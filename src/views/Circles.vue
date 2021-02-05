@@ -1,8 +1,8 @@
 <template>
   <section class="global-section">
-    <h1>Circles</h1>
+    <h1 class="project-title">Circles</h1>
     <h2>Illustration, Visual Design</h2>
-    <p>This project was a visual design excercise for me to explore some digital illustrations a little outside my comfort zone. For two weeks I gave myself the challenge of using Adobe Illustrator to create some unique circular forms using only lines. This was a ton of fun to do and definitely pushed me out of comfort zone!</p>
+    <p class="project-description">This project was a visual design excercise for me to explore some digital illustrations a little outside my comfort zone. For two weeks I gave myself the challenge of using Adobe Illustrator to create some unique circular forms using only lines. This was a ton of fun to do and definitely pushed me out of comfort zone!</p>
     <div class="project-grid project-page">
       <div><img src="../assets/circles/circle1.png" alt=""></div>
       <div><img src="../assets/circles/circle2.png" alt=""></div>
@@ -40,12 +40,6 @@ img {
   width: 100%;
 }
 
-h1 {
-  font-size: 40px;
-  margin: 0;
-  color: #7160F4;
-}
-
 h2 {
   font-style: italic;
   margin: 0;
@@ -58,17 +52,17 @@ p {
   font-size: 16px;
   line-height: 35px;
   width: 50vw;
-  margin-top: 5vh;
-  text-align: center;
+  margin-top: 1vh;
 }
 
 @media screen and (max-width: 600px) {
   p {
+    margin-top: 1vh;
     width: 100%;
   }
 }
 
 .project-page {
-  margin-top: 5vh;
+  margin-top: 1vh;
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
   <section class="global-section">
-    <h1>Facebook Marketing Partners</h1>
+    <h1 class="project-title">Facebook Marketing Partners</h1>
     <h2>UX Design, Product Design, User Research</h2>
     <img class="project-hero" src="../assets/facebook/facebookheader.png" alt="">
     <div class="overview-info">
@@ -91,20 +91,6 @@ hr {
   }
 }
 
-.work-section {
-  margin-top: 10vh;
-  margin-bottom: 5vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  p {
-    margin: 0;
-    text-align: center;
-    width: 70%;
-  }
-}
-
 .work-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -136,12 +122,6 @@ img {
   box-shadow: 10px 10px 37px -15px rgba(133,130,133,1);
 }
 
-h1 {
-  font-size: 40px;
-  margin: 0;
-  color: #7160F4;
-}
-
 h2 {
   font-style: italic;
   margin: 0;
@@ -155,13 +135,13 @@ p {
   font-size: 16px;
   line-height: 35px;
   width: 50vw;
-  margin-top: 5vh;
-  text-align: center;
+  margin-top: 1vh;
 }
 
 @media screen and (max-width: 600px) {
   p {
     width: 100%;
+    margin-top: 1vh;
   }
 }
 
@@ -184,9 +164,9 @@ p {
 
 .prototype-link {
   border: 5px solid #7160F4;
-  padding: 1vw;
+  padding: 20px;
   font-size: 20px;
-  margin-top: 5vh;
+  margin-top: 3vh;
   color:  #7160F4;
   text-decoration: none;
   font-weight: bold;

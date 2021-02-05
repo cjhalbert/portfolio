@@ -1,8 +1,8 @@
 <template>
   <section class="global-section">
-    <h1>Helio Workflow</h1>
+    <h1 class="project-title">Helio Workflow</h1>
     <h2>Web Design, Front-End Development, Visual Design</h2>
-    <p>Helio Workflow is a feature-set currently being added to ZURB's user testing platform <a href="https://helio.app/">Helio</a>. As a product designer at ZURB I led the ideation, design, and development of this feature-set, and was instrumental in moving the team through each step of the process.</p>
+    <p class="project-description">Helio Workflow is a feature-set currently being added to ZURB's user testing platform <a href="https://helio.app/">Helio</a>. As a product designer at ZURB I led the ideation, design, and development of this feature-set, and was instrumental in moving the team through each step of the process.</p>
     <img class="project-hero" src="../assets/helio/helio-hero.png" alt="">
     <div class="overview-info">
       <div>
@@ -99,20 +99,6 @@ hr {
   }
 }
 
-.work-section {
-  margin-top: 10vh;
-  margin-bottom: 5vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  p {
-    margin: 0;
-    text-align: center;
-    width: 70%;
-  }
-}
-
 .work-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -144,11 +130,6 @@ img {
   box-shadow: 10px 10px 37px -15px rgba(133,130,133,1);
 }
 
-h1 {
-  font-size: 40px;
-  margin: 0;
-  color: #7160F4;
-}
 
 h2 {
   font-style: italic;
@@ -163,12 +144,12 @@ p {
   font-size: 16px;
   line-height: 35px;
   width: 50vw;
-  margin-top: 5vh;
-  text-align: center;
+  margin-top: 1vh;
 }
 
 @media screen and (max-width: 600px) {
   p {
+    margin-top: 1vh;
     width: 100%;
   }
 }

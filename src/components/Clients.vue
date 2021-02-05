@@ -52,7 +52,7 @@ p {
   }
   img {
     width: 80vw;
-    margin-top: 5vh;
+    margin-top: 1vh;
   }
   h1 {
     font-size: 25px;

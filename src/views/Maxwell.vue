@@ -1,8 +1,8 @@
 <template>
   <section class="global-section">
-    <h1>Maxwell Denari</h1>
+    <h1 class="project-title">Maxwell Denari</h1>
     <h2>Branding, Visual Design</h2>
-    <p>Maxwell Denari is a freelance writer and photographer who has an immense passion for music and storytelling. Maxwell reached out to me to design a logo for his personal brand so we started working together. Over the course of a few ideas, revisions, and redesigns, we eventually came to a logo that he and I were both excited about.</p>
+    <p class="project-description">Maxwell Denari is a freelance writer and photographer who has an immense passion for music and storytelling. Maxwell reached out to me to design a logo for his personal brand so we started working together. Over the course of a few ideas, revisions, and redesigns, we eventually came to a logo that he and I were both excited about.</p>
 
     <h2 class="section-title">First Round of Designs</h2>
     <div class="project-grid project-page">
@@ -42,13 +42,6 @@ img {
   width: 100%;
 }
 
-h1 {
-  font-size: 40px;
-  margin: 0;
-  color: #7160F4;
-  text-align: center;
-}
-
 h2 {
   font-style: italic;
   margin: 0;
@@ -61,12 +54,12 @@ p {
   font-size: 16px;
   line-height: 35px;
   width: 50vw;
-  margin-top: 5vh;
-  text-align: center;
+  margin-top: 1vh;
 }
 
 @media screen and (max-width: 600px) {
   p {
+    margin-top: 1vh;
     width: 100%;
   }
 }

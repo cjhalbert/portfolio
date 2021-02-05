@@ -1,8 +1,8 @@
 <template>
   <section class="global-section">
-    <h1>Equinix Edge Services</h1>
+    <h1 class="project-title">Equinix Edge Services</h1>
     <h2>UX Design, Product Design, User Research</h2>
-    <p>Equinix is the world's largest digital infrastructure company. They specialize in internet connection, data centers, and cloud computing. At ZURB I was the sole designer on a small team working to rethink and redesign the company's Edge Services platform, which sought to provide services for cloud computing engineers to launch and manage their data management systems.</p>
+    <p class="project-description">Equinix is the world's largest digital infrastructure company. They specialize in internet connection, data centers, and cloud computing. At ZURB I was the sole designer on a small team working to rethink and redesign the company's Edge Services platform, which sought to provide services for cloud computing engineers to launch and manage their data management systems.</p>
     <img class="project-hero" src="../assets/equinix/equinixheader.png" alt="">
     <div class="overview-info">
       <div>
@@ -95,20 +95,6 @@ hr {
   }
 }
 
-.work-section {
-  margin-top: 10vh;
-  margin-bottom: 5vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
-  p {
-    margin: 0;
-    text-align: center;
-    width: 70%;
-  }
-}
-
 .work-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -140,11 +126,6 @@ img {
   box-shadow: 10px 10px 37px -15px rgba(133,130,133,1);
 }
 
-h1 {
-  font-size: 40px;
-  margin: 0;
-  color: #7160F4;
-}
 
 h2 {
   font-style: italic;
@@ -159,12 +140,12 @@ p {
   font-size: 16px;
   line-height: 35px;
   width: 50vw;
-  margin-top: 5vh;
-  text-align: center;
+  margin-top: 1vh;
 }
 
 @media screen and (max-width: 600px) {
   p {
+    margin-top: 1vh;
     width: 100%;
   }
 }

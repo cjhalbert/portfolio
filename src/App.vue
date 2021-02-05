@@ -45,8 +45,18 @@ body {
 .global-section {
   padding: 0 10vw;
   height: 100vh;
-}
 
+  .project-title {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 40px;
+    margin: 0;
+    color: #7160F4;
+    width: 100%;
+}
+}
 .oneCol {
   grid-template-columns: 1fr;
 }
@@ -72,6 +82,41 @@ body {
     cursor: pointer;
   }
 }
+
+.work-section {
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h1 {
+    text-align: center;
+  }
+
+  p {
+    margin: 0;
+    text-align: center;
+    width: 70%;
+  }
+  @media screen and (max-width: 600px) {
+    h1 {
+      text-align: left;
+      width: 100%;
+    }
+
+    p {
+      margin-top: 0;
+      width: 100%;
+      text-align: left;
+    }
+  }
+}
+
+.project-description {
+  text-align: center;
+}
+
 @media screen and (max-width: 900px) {
   .project-grid {
     grid-template-columns: 1fr 1fr;
@@ -80,6 +125,16 @@ body {
 @media screen and (max-width: 600px) {
   .project-grid {
     grid-template-columns: 1fr;
+  }
+  .global-section {
+    h1 {
+      font-size: 24px;
+      margin-bottom: 1.5vh;
+      text-align: left;
+    }
+    h2 {
+      font-size: 14px;
+    }
   }
 }
 </style>

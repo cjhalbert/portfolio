@@ -12,10 +12,6 @@
         <h1>Role</h1>
         <p>Product Designer</p>
       </div>
-       <div>
-        <h1>Duration</h1>
-        <p>6 Weeks</p>
-      </div>
     </div>
      <hr>
     <div class="work-section">

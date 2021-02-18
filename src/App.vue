@@ -25,6 +25,16 @@ body {
   background: #483C9E;
 }
 
+hr {
+  width: 80vw;
+  margin-top: 10vh;
+  border: 1px solid #E4E4E4;
+}
+
+section {
+  height: auto;
+}
+
 .header-text {
   font-family: "Orpheus Pro", serif;
   font-size: 16px;
@@ -44,7 +54,6 @@ body {
 
 .global-section {
   padding: 0 10vw;
-  height: 100vh;
 
   .project-title {
     text-align: center;
@@ -55,8 +64,13 @@ body {
     margin: 0;
     color: #7160F4;
     width: 100%;
+  }
 }
+
+.home-section {
+  height: 100vh;
 }
+
 .oneCol {
   grid-template-columns: 1fr;
 }
@@ -115,6 +129,25 @@ body {
 
 .project-description {
   text-align: center;
+}
+
+.next-project-link {
+
+  & a {
+    text-decoration: none;
+    font-style: italic;
+    color: black;
+    font-size: 40px;
+    margin-right: 1rem;
+  }
+
+  &::after {
+    content: url('./assets/arrow.svg');
+  }
+}
+
+.next-project-section {
+  margin: 5vh;
 }
 
 @media screen and (max-width: 900px) {

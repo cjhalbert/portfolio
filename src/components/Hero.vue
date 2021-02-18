@@ -1,5 +1,5 @@
 <template>
-  <section class="global-section"> 
+  <section class="global-section home-section"> 
     <img src="../assets/me.jpg" alt="">
   </section>
 </template>

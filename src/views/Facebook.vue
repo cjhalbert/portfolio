@@ -2,7 +2,7 @@
   <section class="global-section">
     <h1 class="project-title">Facebook Marketing Partners</h1>
     <h2>UX Design, Product Design, User Research</h2>
-    <img class="project-hero" src="../assets/facebook/facebookheader.png" alt="">
+    <img class="project-hero" src="../assets/facebook/facebook-header.png" alt="">
     <div class="overview-info">
       <div>
         <h1>Overview</h1>
@@ -11,6 +11,10 @@
       <div>
         <h1>Role</h1>
         <p>Product Designer</p>
+      </div>
+       <div>
+        <h1>Duration</h1>
+        <p>6 Weeks</p>
       </div>
     </div>
      <hr>
@@ -46,6 +50,10 @@
       <p>Our final deliverable for this project was an interactive Marvel prototype. This deliverable allowed the team we were handing off to to quickly and easily present the suggested work to their shareholders, and outside team members.</p>
       <a href="https://marvelapp.com/prototype/9fa38ag/" class="prototype-link">Go To Prototype</a>
     </div>
+    <hr>
+    <div class="next-project-section">
+      <h1 class="next-project-link"><router-link to="/helio">Helio Workflow</router-link></h1>
+    </div>
   </section>
 </template>
 
@@ -60,12 +68,6 @@ section {
   height: auto;
 }
 
-hr {
-  width: 80vw;
-  margin-top: 10vh;
-  border: 1px solid #E4E4E4;
-}
-
 .project-hero {
   margin: 10vh 0;
 }
@@ -77,16 +79,19 @@ hr {
     text-align: left;
     margin: 0;
     width: 100%;
+    font-weight: bold;
+  }
+
+  div {
+    flex: 1;
   }
 
   div:first-child {
-    width: 70%;
+    flex: 3;
     margin-right: 5vw;
-  }
 
-  div:nth-child(2) {
     p {
-      font-weight: bold;
+      font-weight: 400;
     }
   }
 }
@@ -110,9 +115,12 @@ hr {
   .overview-info {
     flex-direction: column;
 
+    div {
+      margin-bottom: 5vh;
+    }
+
     div:first-child {
       width: 100%;
-      margin-bottom: 5vh;
     }
   }
 }

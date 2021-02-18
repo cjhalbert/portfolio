@@ -1,8 +1,8 @@
 <template>
-	<section name="about" class="global-section">
+	<section name="about" class="global-section home-section">
     <div class="about-text">
       <h1>Clients</h1>
-      <p>Over the course of my professional career I've been lucky enough to have had the opportunity to work with a bunch of really awesome clients, people, and companies! This has given me experience in a variety of different industries, product sizes, and team compositions. Here are just a few of the people I've worked with!</p>
+      <p>Over the course of my professional career I've been lucky enough to have had the opportunity to work with a bunch of really awesome clients, people, and companies. This has given me experience in a variety of different industries, product sizes, and team compositions. Here are just a few of the people I've worked with:</p>
     </div>
     <div>
       <img src="../assets/clients.png" alt="">

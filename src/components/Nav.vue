@@ -36,10 +36,9 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 2rem 0 4rem 0;
+  padding: 2rem 10vw;
   position: fixed;
   width: 80vw;
-  padding: 0 10vw;
   z-index: 10;
 
   ul {

@@ -50,6 +50,10 @@
         <img src="../assets/equinix/equinixwireframe16.png" alt="">
       </div>
     </div>
+    <hr>
+    <div class="next-project-section">
+      <h1 class="next-project-link"><router-link to="/circles">Circles</router-link></h1>
+    </div>
   </section>
 </template>
 
@@ -62,12 +66,6 @@ section {
   flex-direction: column;
   font-family: "Orpheus Pro", serif;
   height: auto;
-}
-
-hr {
-  width: 80vw;
-  margin-top: 10vh;
-  border: 1px solid #E4E4E4;
 }
 
 .project-hero {

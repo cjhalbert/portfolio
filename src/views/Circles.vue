@@ -23,6 +23,10 @@
       <div><img src="../assets/circles/circle17.png" alt=""></div>
       <div><img src="../assets/circles/circle18.png" alt=""></div>
     </div>
+    <hr>
+    <div class="next-project-section">
+      <h1 class="next-project-link"><router-link to="/maxwell">Maxwell Denari</router-link></h1>
+    </div>
   </section>
 </template>
 

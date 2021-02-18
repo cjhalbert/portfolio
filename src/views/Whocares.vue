@@ -12,6 +12,10 @@
         <div><img src="../assets/whocares/whocares-stacked.png" alt=""></div>
         <div><img src="../assets/whocares/whocares-outline.png" alt=""></div>
     </div>
+     <hr>
+    <div class="next-project-section">
+      <h1 class="next-project-link"><router-link to="/facebook">Facebook</router-link></h1>
+    </div>
   </section>
 </template>
 

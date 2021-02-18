@@ -25,6 +25,10 @@
     <div class="project-grid oneCol project-page">
         <div><img src="../assets/maxwell/max-final-vert.svg" alt=""></div>
     </div>
+     <hr>
+    <div class="next-project-section">
+      <h1 class="next-project-link"><router-link to="/whocares">Whocares</router-link></h1>
+    </div>
   </section>
 </template>
 

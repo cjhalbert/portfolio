@@ -1,6 +1,6 @@
 <template>
-	<section id="contact" class="global-section">
-		<h1>Let's work together!</h1>
+	<section id="contact" class="global-section home-section">
+		<h1>Let's work together</h1>
     <p>email<span>halbertco.2015@gmail.com</span></p>
     <p>phone number<span>260.242.3546</span></p>
 	</section>

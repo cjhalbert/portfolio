@@ -1,7 +1,7 @@
 <template>
-	<section id="about" class="global-section">
+	<section id="about" class="global-section home-section">
 		<div>
-      <img src="../assets/corey.png" alt="">
+      <img src="../assets/headshot.png" alt="">
     </div>
     <div class="about-text">
       <h1>Hi, nice to meet you!</h1>
